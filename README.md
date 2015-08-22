@@ -16,4 +16,8 @@ Note that this source code is not a "ready-to-go drag-and-drop" framework. It ju
 - Auto-resize table view cell upon user interaction on text view content
 - Keeps cursor always on focus
 
+The technique used in this example is simple: load everything that you need to be displayed in that given cell, at once (not lazy instantiation). Set the cell height to a determined `collapsedCellHeight`. Then, upon user interaction, expand that cell height to the `expandedCellHeight` (actually calculate the cell height, and not use a constant).
+
+There are many other solutions to this issue, like lazy instantiation (load the expanded cell content upon user interaction - in case it displays content from a web service), or completely change the cell structure upon user interaction - each case depends on your needs. This is *not* the only solution.
+
 #####Feel free to contact me for any questions, suggestions, pull requests, or anything doubts.
