@@ -1,6 +1,7 @@
 # ExpandableCellsExample
 ###Simple example of how to create expandable table view cells
 
+![Expandable Cells Icon](/ExpandableCellsExample/Assets.xcassets/AppIcon.appiconset/EC60x60%403x.png?raw=true "Expandable Cells Icon")
 
 In this example, I show one of the possible ways to create expandable table view cells.
 What seems to be such an easy task, and present in many applications and customer requirements nowadays, is usually taking too much effort for developers to code, so I thought of a simple way to solve this problem.
