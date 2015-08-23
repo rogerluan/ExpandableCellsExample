@@ -21,4 +21,4 @@ The technique used in this example is simple: load everything that you need to b
 
 There are many other solutions to this issue, like lazy instantiation (load the expanded cell content upon user interaction - in case it displays content from a web service), or completely change the cell structure upon user interaction - each case depends on your needs. This is *not* the only solution.
 
-#####Feel free to contact me for any questions, suggestions, pull requests, or anything doubts.
+#####Feel free to contact me for any questions, suggestions, pull requests, or anything doubts. [@Rogerluan\_](http://twitter.com/Rogerluan_) (Roger Oba)
